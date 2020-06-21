@@ -41,6 +41,8 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
   margin-top:5px;
   background-color: white;
   box-shadow: 0 10px 6px -8px;
+  border-right: 5px solid rgb(55, 173, 91);
+  
 }
 
 .expensein{
@@ -62,5 +64,4 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
 
 .transaction_container{
   margin-top: 30px;
-
 }
