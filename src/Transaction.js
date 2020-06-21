@@ -11,7 +11,7 @@ export const Transaction = () => {
                 <label htmlFor="Amount">Enter Amount</label><br/>
                 <input type="number"  id="Amount" required/>
                 <br/>
-                <input type="button" value="Add Transaction"/>
+                <input className="btn" type="button" value="Add Transaction"/>
             </form>
         </div>
     )

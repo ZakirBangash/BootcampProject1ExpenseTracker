@@ -55,6 +55,10 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
   padding:7px 0;
 }
 
+.transaction-form  .btn{
+  background-color: #008CBA;
+  outline: none;
+}
 
 .transaction_container{
   margin-top: 30px;
