@@ -1,11 +1,6 @@
 import React, { useReducer, createContext } from 'react'
 
-const transactions = [
-    { id: 1, text: "Flower", Amount: -20 },
-    { id: 2, text: "Salary", Amount: 200 },
-    { id: 3, text: "Book", Amount: -20 },
-    { id: 4, text: "Camera", Amount: 150 },
-];
+const transactions = [ ];
 
 
 
