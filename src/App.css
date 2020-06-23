@@ -33,17 +33,51 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
   margin:0;
   padding:0;
 }
-.transaction > li{
-  list-style: none;
+.transaction >li{
+  /* list-style: none;
   display: flex;
   justify-content: space-between;
   padding: 10px 5px;
   margin-top:5px;
   background-color: white;
-  box-shadow: 0 10px 6px -8px;
+  
   border-right: 5px solid rgb(55, 173, 91);
+   */
+
+   
+    background-color: #fff;
+    
+     box-shadow: 0 10px 6px -8px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
   
 }
+
+.btnX {
+
+  cursor: pointer;
+  background-color: #e74c3c;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-100%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.transaction li:hover .btnX {
+opacity: 1;
+}
+
 
 .expensein{
   background-color: white;
@@ -51,11 +85,19 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
   margin-bottom: 50px;
 }
 
-.transaction-form > input{
+.transaction-form > label > input{
   width: 100%;
   margin-top: 10px;
   padding:7px 0;
 }
+
+.transaction-form >  input{
+  width: 100%;
+  margin-top: 10px;
+  padding:7px 0;
+}
+
+
 
 .transaction-form  .btn{
   background-color: #008CBA;
@@ -65,3 +107,10 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
 .transaction_container{
   margin-top: 30px;
 }
+
+
+
+/* .display{
+  display: flex;
+  justify-content: space-between;
+} */
